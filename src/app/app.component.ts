@@ -14,11 +14,23 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.items = [
-      { label: 'Home', icon: PrimeIcons.HOME },
-      { label: 'Calendar', icon: 'pi pi-fw pi-calendar' },
-      { label: 'Edit', icon: 'pi pi-fw pi-pencil' },
-      { label: 'Documentation', icon: 'pi pi-fw pi-file' },
-      { label: 'Settings', icon: 'pi pi-fw pi-cog' },
+      {
+        label: 'Start',
+        icon: PrimeIcons.HOME,
+        routerLink: 'start',
+      },
+      {
+        label: 'O nas',
+        icon: 'pi pi-fw pi-user',
+        routerLink: 'about-us',
+      },
+      {
+        label: 'Oferta',
+        icon: 'pi pi-fw pi-building',
+        routerLink: '',
+      },
+      { label: 'Realizacje', icon: 'pi pi-fw pi-images', routerLink: '' },
+      { label: 'Kontakt', icon: 'pi pi-fw pi-map', routerLink: '' },
     ];
     this.activeItem = this.items[0];
   }
