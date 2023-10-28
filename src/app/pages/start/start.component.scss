@@ -1,9 +1,4 @@
 .card-wrapper {
-  width: 90%;
-  margin: auto;
-  padding: 1rem;
-  border-radius: 1rem;
-
   &__inside {
     position: relative;
     padding: 1rem;
@@ -29,21 +24,24 @@
     }
 
     p {
-      color: white;
+      color: #fefefe;
       background: rgba(0, 0, 0, 0.4);
       border-radius: 1rem;
       padding: 1rem;
     }
   }
+  &__element {
+    width: 465px;
+  }
 
   .section-one {
-    background-image: url("../../../assets/images/start-page/reflection-3621760_640.jpg");
+    background-image: url("^assets/images/start-page/reflection-3621760_640.jpg");
   }
   .section-two {
-    background-image: url("../../../assets/images/start-page/roof-truss-3339206_640.jpg");
+    background-image: url("^assets/images/start-page/roof-truss-3339206_640.jpg");
   }
   .section-three {
-    background-image: url("../../../assets/images/start-page/tool-belt-739152_640.jpg");
+    background-image: url("^assets/images/start-page/tool-belt-739152_640.jpg");
   }
 
   @media screen and (min-width: 961px) {
@@ -53,13 +51,13 @@
       }
     }
     .section-one {
-      background-image: url("../../../assets/images/start-page/reflection-3621760_1920.jpg");
+      background-image: url("^assets/images/start-page/reflection-3621760_1920.jpg");
     }
     .section-two {
-      background-image: url("../../../assets/images/start-page/roof-truss-3339206_1920.jpg");
+      background-image: url("^assets/images/start-page/roof-truss-3339206_1920.jpg");
     }
     .section-three {
-      background-image: url("../../../assets/images/start-page/tool-belt-739152_1280.jpg");
+      background-image: url("^assets/images/start-page/tool-belt-739152_1280.jpg");
     }
   }
 }

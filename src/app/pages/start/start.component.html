@@ -41,10 +41,10 @@
     </p-tabPanel>
   </p-tabView>
 </div>
-<div class="card-wrapper grid mt-4">
-  <div class="col card flex justify-content-center">
-    <p-accordion [multiple]="true" [activeIndex]="[0]">
-      <p-accordionTab header="Header I">
+<div class="card card-wrapper grid mt-4">
+  <div class="col card-wrapper__element">
+    <p-accordion [activeIndex]="[0]">
+      <p-accordionTab header="Informacja I">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -55,7 +55,7 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </p-accordionTab>
-      <p-accordionTab header="Header II">
+      <p-accordionTab header="Informacja II">
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
@@ -66,7 +66,7 @@
           sed quia non numquam eius modi.
         </p>
       </p-accordionTab>
-      <p-accordionTab header="Header III">
+      <p-accordionTab header="Informacja III">
         <p>
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
@@ -78,5 +78,18 @@
         </p>
       </p-accordionTab>
     </p-accordion>
+  </div>
+  <div class="col card-wrapper__element">
+    <p-fieldset legend="Header" [toggleable]="true">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </p-fieldset>
   </div>
 </div>
