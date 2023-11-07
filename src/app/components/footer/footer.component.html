@@ -1,3 +1,10 @@
 <div class="card">
-  <p-menubar class="flex justify-content-end" [model]="items"> </p-menubar>
+  <div class="footer-wrapper">
+    <ul>
+      <li *ngFor="let item of footerData">
+        <a [href]="item.routerLink"><div [class]="item.icon"></div></a>
+        <p>{{ item.label }}</p>
+      </li>
+    </ul>
+  </div>
 </div>
