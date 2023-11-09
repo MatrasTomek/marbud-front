@@ -7,7 +7,7 @@ export const footerData = [
   {
     icon: 'pi pi-fw pi-user',
     label: '',
-    routerLink: 'about-us',
+    routerLink: 'o-nas',
   },
   { icon: 'pi pi-fw pi-map', label: '', routerLink: '' },
 ];

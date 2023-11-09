@@ -20,14 +20,18 @@ export class HeaderComponent implements OnInit {
       {
         label: 'O nas',
         icon: 'pi pi-fw pi-user',
-        routerLink: 'about-us',
+        routerLink: 'o-nas',
       },
       {
         label: 'Oferta',
         icon: 'pi pi-fw pi-building',
         routerLink: '',
       },
-      { label: 'Realizacje', icon: 'pi pi-fw pi-images', routerLink: '' },
+      {
+        label: 'Realizacje',
+        icon: 'pi pi-fw pi-images',
+        routerLink: 'realizacje',
+      },
       { label: 'Kontakt', icon: 'pi pi-fw pi-map', routerLink: '' },
     ];
     this.activeItem = this.items[0];

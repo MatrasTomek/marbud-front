@@ -1,0 +1,10 @@
+:host ::ng-deep {
+  .p-galleria-thumbnail-wrapper {
+    height: 150px;
+    .p-galleria-thumbnail-item-content {
+      img {
+        height: 100px;
+      }
+    }
+  }
+}
