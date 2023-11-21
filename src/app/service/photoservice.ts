@@ -20,14 +20,14 @@ export class PhotoService {
         alt: 'Description for Image 2',
         title: 'Title 2',
       },
-      // {
-      //   itemImageSrc:
-      //     'https://primefaces.org/cdn/primeng/images/galleria/galleria3.jpg',
-      //   thumbnailImageSrc:
-      //     'https://primefaces.org/cdn/primeng/images/galleria/galleria3s.jpg',
-      //   alt: 'Description for Image 3',
-      //   title: 'Title 3',
-      // },
+      {
+        itemImageSrc:
+          '../../assets/images/realizations/building-1510561_1280.jpg',
+        thumbnailImageSrc:
+          '../../assets/images/realizations/building-1510561_640.jpg',
+        alt: 'Description for Image 3',
+        title: 'Title 3',
+      },
       // {
       //   itemImageSrc:
       //     'https://primefaces.org/cdn/primeng/images/galleria/galleria4.jpg',

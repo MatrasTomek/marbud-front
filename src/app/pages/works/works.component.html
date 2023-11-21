@@ -1,6 +1,6 @@
 <div class="wrapper-realizations realizations">
   <div class="realizations__item">
-    <h3>Nazwa realizacji</h3>
+    <h3>Nazwa 1</h3>
     <div class="card">
       <p-galleria
         [value]="images"
@@ -9,7 +9,7 @@
         [numVisible]="5"
       >
         <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" style="width: 100%; height: 500px" />
+          <img [src]="item.itemImageSrc" />
         </ng-template>
         <ng-template pTemplate="thumbnail" let-item>
           <div class="grid grid-nogutter justify-content-center">
@@ -19,8 +19,84 @@
       </p-galleria>
     </div>
   </div>
-  <!-- <div class="realizations__item"></div>
-  <div class="realizations__item"></div>
-  <div class="realizations__item"></div>
-  <div class="realizations__item"></div> -->
+  <div class="realizations__item">
+    <h3>Nazwa 2</h3>
+    <div class="card">
+      <p-galleria
+        [value]="images"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px' }"
+        [numVisible]="5"
+      >
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+          <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" />
+          </div>
+        </ng-template>
+      </p-galleria>
+    </div>
+  </div>
+  <div class="realizations__item">
+    <h3>Nazwa 3</h3>
+    <div class="card">
+      <p-galleria
+        [value]="images"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px' }"
+        [numVisible]="5"
+      >
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+          <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" />
+          </div>
+        </ng-template>
+      </p-galleria>
+    </div>
+  </div>
+  <div class="realizations__item">
+    <h3>Nazwa 4</h3>
+    <div class="card">
+      <p-galleria
+        [value]="images"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px' }"
+        [numVisible]="5"
+      >
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+          <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" />
+          </div>
+        </ng-template>
+      </p-galleria>
+    </div>
+  </div>
+  <div class="realizations__item">
+    <h3>Nazwa 5</h3>
+    <div class="card">
+      <p-galleria
+        [value]="images"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px' }"
+        [numVisible]="5"
+      >
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+          <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" />
+          </div>
+        </ng-template>
+      </p-galleria>
+    </div>
+  </div>
 </div>
