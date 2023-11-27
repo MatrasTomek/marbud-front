@@ -28,14 +28,13 @@ export class PhotoService {
         alt: 'Description for Image 3',
         title: 'Title 3',
       },
-      // {
-      //   itemImageSrc:
-      //     'https://primefaces.org/cdn/primeng/images/galleria/galleria4.jpg',
-      //   thumbnailImageSrc:
-      //     'https://primefaces.org/cdn/primeng/images/galleria/galleria4s.jpg',
-      //   alt: 'Description for Image 4',
-      //   title: 'Title 4',
-      // },
+      {
+        itemImageSrc: '../../assets/images/realizations/tools-864983_1280.jpg',
+        thumbnailImageSrc:
+          '../../assets/images/realizations/tools-864983_640.jpg',
+        alt: 'Description for Image 4',
+        title: 'Title 4',
+      },
       // {
       //   itemImageSrc:
       //     'https://primefaces.org/cdn/primeng/images/galleria/galleria5.jpg',
