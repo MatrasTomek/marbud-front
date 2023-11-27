@@ -14,6 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { WorksComponent } from './pages/works/works.component';
 import { PhotoService } from './service/photoservice';
+import { DividerModule } from 'primeng/divider';
+import { ImageModule } from 'primeng/image';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { PhotoService } from './service/photoservice';
     AccordionModule,
     FieldsetModule,
     GalleriaModule,
+    DividerModule,
+    ImageModule,
   ],
   providers: [PhotoService],
   bootstrap: [AppComponent],
