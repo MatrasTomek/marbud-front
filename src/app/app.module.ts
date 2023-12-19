@@ -16,6 +16,7 @@ import { WorksComponent } from './pages/works/works.component';
 import { PhotoService } from './service/photoservice';
 import { DividerModule } from 'primeng/divider';
 import { ImageModule } from 'primeng/image';
+import { WorkItemComponent } from './components/work-item/work-item.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ImageModule } from 'primeng/image';
     FooterComponent,
     HeaderComponent,
     WorksComponent,
+    WorkItemComponent,
   ],
   imports: [
     BrowserModule,

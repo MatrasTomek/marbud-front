@@ -1,0 +1,20 @@
+<div class="realizations-item">
+  <h3>{{ itemName }}</h3>
+  <div class="card">
+    <p-galleria
+      [value]="images"
+      [responsiveOptions]="responsiveOptions"
+      [numVisible]="3"
+    >
+      <ng-template pTemplate="item" let-item>
+        <img [src]="item.itemImageSrc" />
+      </ng-template>
+      <ng-template pTemplate="thumbnail" let-item>
+        <div class="grid grid-nogutter justify-content-center">
+          <img [src]="item.thumbnailImageSrc" />
+        </div>
+      </ng-template>
+    </p-galleria>
+  </div>
+  <p>{{ itemDescription }}</p>
+</div>

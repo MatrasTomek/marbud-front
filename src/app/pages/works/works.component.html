@@ -1,97 +1,10 @@
-<div class="wrapper-realizations realizations">
-  <div class="realizations__item">
-    <h3>Nazwa 1</h3>
-    <div class="card">
-      <p-galleria
-        [value]="images"
-        [responsiveOptions]="responsiveOptions"
-        [numVisible]="3"
-      >
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" />
-        </ng-template>
-        <ng-template pTemplate="thumbnail" let-item>
-          <div class="grid grid-nogutter justify-content-center">
-            <img [src]="item.thumbnailImageSrc" />
-          </div>
-        </ng-template>
-      </p-galleria>
-    </div>
-  </div>
-  <div class="realizations__item">
-    <h3>Nazwa 2</h3>
-    <div class="card">
-      <p-galleria
-        [value]="images"
-        [responsiveOptions]="responsiveOptions"
-        [numVisible]="3"
-      >
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" />
-        </ng-template>
-        <ng-template pTemplate="thumbnail" let-item>
-          <div class="grid grid-nogutter justify-content-center">
-            <img [src]="item.thumbnailImageSrc" />
-          </div>
-        </ng-template>
-      </p-galleria>
-    </div>
-  </div>
-  <div class="realizations__item">
-    <h3>Nazwa 3</h3>
-    <div class="card">
-      <p-galleria
-        [value]="images"
-        [responsiveOptions]="responsiveOptions"
-        [numVisible]="3"
-      >
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" />
-        </ng-template>
-        <ng-template pTemplate="thumbnail" let-item>
-          <div class="grid grid-nogutter justify-content-center">
-            <img [src]="item.thumbnailImageSrc" />
-          </div>
-        </ng-template>
-      </p-galleria>
-    </div>
-  </div>
-  <div class="realizations__item">
-    <h3>Nazwa 4</h3>
-    <div class="card">
-      <p-galleria
-        [value]="images"
-        [responsiveOptions]="responsiveOptions"
-        [numVisible]="3"
-      >
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" />
-        </ng-template>
-        <ng-template pTemplate="thumbnail" let-item>
-          <div class="grid grid-nogutter justify-content-center">
-            <img [src]="item.thumbnailImageSrc" />
-          </div>
-        </ng-template>
-      </p-galleria>
-    </div>
-  </div>
-  <div class="realizations__item">
-    <h3>Nazwa 5</h3>
-    <div class="card">
-      <p-galleria
-        [value]="images"
-        [responsiveOptions]="responsiveOptions"
-        [numVisible]="3"
-      >
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" />
-        </ng-template>
-        <ng-template pTemplate="thumbnail" let-item>
-          <div class="grid grid-nogutter justify-content-center">
-            <img [src]="item.thumbnailImageSrc" />
-          </div>
-        </ng-template>
-      </p-galleria>
-    </div>
-  </div>
+<div class="wrapper-realizations realizations card-wrapper">
+  <app-work-item
+    *ngFor="let item of galleryItems"
+    [itemName]="item.itemName"
+    [itemDescription]="item.itemDescription"
+    [images]="item.images"
+    class="realizations__item"
+  >
+  </app-work-item>
 </div>

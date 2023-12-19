@@ -5,35 +5,82 @@ export class PhotoService {
   getData() {
     return [
       {
-        itemImageSrc:
-          '../../assets/images/realizations/building-3331438_1280.jpg',
-        thumbnailImageSrc:
-          '../../assets/images/realizations/building-3331438_640.jpg',
-        alt: 'Description for Image 1',
-        title: 'Title 1',
+        itemName: 'Nazwa-1',
+        itemDescription:
+          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam in neque quaerat reiciendis assumenda quis deserunt iste unde, repellendus animi quae, suscipit, et tempore iure! Ex quisquam ipsa tenetur? Vero.',
+        images: [
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/building-3331438_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/building-3331438_640.jpg',
+            alt: 'Description for Image 1',
+            title: 'Title 1',
+          },
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/framework-3404581_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/framework-3404581_640.jpg',
+            alt: 'Description for Image 2',
+            title: 'Title 2',
+          },
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/building-1510561_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/building-1510561_640.jpg',
+            alt: 'Description for Image 3',
+            title: 'Title 3',
+          },
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/tools-864983_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/tools-864983_640.jpg',
+            alt: 'Description for Image 4',
+            title: 'Title 4',
+          },
+        ],
       },
       {
-        itemImageSrc:
-          '../../assets/images/realizations/framework-3404581_1280.jpg',
-        thumbnailImageSrc:
-          '../../assets/images/realizations/framework-3404581_640.jpg',
-        alt: 'Description for Image 2',
-        title: 'Title 2',
-      },
-      {
-        itemImageSrc:
-          '../../assets/images/realizations/building-1510561_1280.jpg',
-        thumbnailImageSrc:
-          '../../assets/images/realizations/building-1510561_640.jpg',
-        alt: 'Description for Image 3',
-        title: 'Title 3',
-      },
-      {
-        itemImageSrc: '../../assets/images/realizations/tools-864983_1280.jpg',
-        thumbnailImageSrc:
-          '../../assets/images/realizations/tools-864983_640.jpg',
-        alt: 'Description for Image 4',
-        title: 'Title 4',
+        itemName: 'Nazwa-2',
+        itemDescription:
+          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam in neque quaerat reiciendis assumenda quis deserunt iste unde, repellendus animi quae, suscipit, et tempore iure! Ex quisquam ipsa tenetur? Vero.',
+        images: [
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/building-3331438_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/building-3331438_640.jpg',
+            alt: 'Description for Image 1',
+            title: 'Title 1',
+          },
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/framework-3404581_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/framework-3404581_640.jpg',
+            alt: 'Description for Image 2',
+            title: 'Title 2',
+          },
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/building-1510561_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/building-1510561_640.jpg',
+            alt: 'Description for Image 3',
+            title: 'Title 3',
+          },
+          {
+            itemImageSrc:
+              '../../assets/images/realizations/tools-864983_1280.jpg',
+            thumbnailImageSrc:
+              '../../assets/images/realizations/tools-864983_640.jpg',
+            alt: 'Description for Image 4',
+            title: 'Title 4',
+          },
+        ],
       },
       // {
       //   itemImageSrc:
@@ -126,7 +173,7 @@ export class PhotoService {
     ];
   }
 
-  getImages() {
+  getItems() {
     return Promise.resolve(this.getData());
   }
 }
