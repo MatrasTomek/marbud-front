@@ -1,0 +1,41 @@
+@import "../../../styles.scss";
+
+.offer-item {
+  width: 380px;
+  height: 160px;
+  border: 1px solid $middle-gray;
+  border-radius: $big-radius;
+  padding: $standard-padding;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  font-size: $small-fz;
+  background-color: $middle-gray;
+  color: $fontLightColor;
+  box-shadow: 5px 5px 10px $deep-gray;
+
+  &__icon {
+    margin-bottom: $standard-margin;
+    margin-right: $small-margin;
+    font-size: $middle-fz;
+    font-weight: 700;
+  }
+
+  &__title {
+    margin-bottom: $standard-margin;
+    font-size: $middle-fz;
+    font-weight: 700;
+  }
+
+  &__description {
+    margin-bottom: $standard-margin;
+    flex-basis: 100%;
+  }
+
+  @media screen and (min-width: 961px) {
+    font-size: $middle-fz;
+    width: 450px;
+    height: 260px;
+  }
+}

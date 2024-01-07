@@ -1,0 +1,12 @@
+<div class="card card-wrapper">
+  <h2>Oferujemy:</h2>
+  <div class="offer-wrapper">
+    <app-offer-item
+      *ngFor="let item of offerItems"
+      [itemTitle]="item.title"
+      [itemDescription]="item.description"
+      [itemIcon]="item.icon"
+      class="offer-wrapper__item"
+    ></app-offer-item>
+  </div>
+</div>

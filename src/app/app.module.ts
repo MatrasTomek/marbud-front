@@ -17,6 +17,9 @@ import { PhotoService } from './service/photoservice';
 import { DividerModule } from 'primeng/divider';
 import { ImageModule } from 'primeng/image';
 import { WorkItemComponent } from './components/work-item/work-item.component';
+import { OfferComponent } from './pages/offer/offer.component';
+import { OfferItemComponent } from './components/offer-item/offer-item.component';
+import { OfferService } from './service/offerservice';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,8 @@ import { WorkItemComponent } from './components/work-item/work-item.component';
     HeaderComponent,
     WorksComponent,
     WorkItemComponent,
+    OfferComponent,
+    OfferItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,7 +45,7 @@ import { WorkItemComponent } from './components/work-item/work-item.component';
     DividerModule,
     ImageModule,
   ],
-  providers: [PhotoService],
+  providers: [PhotoService, OfferService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
