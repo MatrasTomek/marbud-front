@@ -1,4 +1,5 @@
 .card-wrapper {
+  min-height: 300px !important;
   &__inside {
     position: relative;
     padding: 1rem;
@@ -35,13 +36,13 @@
   }
 
   .section-one {
-    background-image: url("^assets/images/start-page/reflection-3621760_640.jpg");
+    background-image: url("^assets/images/start-page/cottage-768889_640.jpg");
   }
   .section-two {
-    background-image: url("^assets/images/start-page/roof-truss-3339206_640.jpg");
+    background-image: url("^assets/images/start-page/housebuilding-3370969_640.jpg");
   }
   .section-three {
-    background-image: url("^assets/images/start-page/tool-belt-739152_640.jpg");
+    background-image: url("^assets/images/start-page/roofers-2891664_640.jpg");
   }
 
   @media screen and (min-width: 961px) {
@@ -51,13 +52,13 @@
       }
     }
     .section-one {
-      background-image: url("^assets/images/start-page/reflection-3621760_1920.jpg");
+      background-image: url("^assets/images/start-page/cottage-768889_1280.jpg");
     }
     .section-two {
-      background-image: url("^assets/images/start-page/roof-truss-3339206_1920.jpg");
+      background-image: url("^assets/images/start-page/housebuilding-3370969_1920.jpg");
     }
     .section-three {
-      background-image: url("^assets/images/start-page/tool-belt-739152_1280.jpg");
+      background-image: url("^assets/images/start-page/roofers-2891664_1280.jpg");
     }
   }
 }

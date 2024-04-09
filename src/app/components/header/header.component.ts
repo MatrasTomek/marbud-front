@@ -17,11 +17,11 @@ export class HeaderComponent implements OnInit {
         icon: PrimeIcons.HOME,
         routerLink: 'start',
       },
-      {
-        label: 'O nas',
-        icon: 'pi pi-fw pi-user',
-        routerLink: 'o-nas',
-      },
+      // {
+      //   label: 'O nas',
+      //   icon: 'pi pi-fw pi-user',
+      //   routerLink: 'o-nas',
+      // },
       {
         label: 'Oferta',
         icon: 'pi pi-fw pi-building',

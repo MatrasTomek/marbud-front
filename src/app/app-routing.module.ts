@@ -16,10 +16,6 @@ const routes: Routes = [
     component: StartComponent,
   },
   {
-    path: 'o-nas',
-    component: AboutUsComponent,
-  },
-  {
     path: 'oferta',
     component: OfferComponent,
   },

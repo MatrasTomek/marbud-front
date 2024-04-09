@@ -1,18 +1,31 @@
 @import "../../../styles.scss";
 
-.offer-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.card-offer-wrapper {
+  background-image: url("^assets/images/offer-page/floor-plan-1857175_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
 
-  app-offer-item {
-    margin-bottom: $big-margin;
+  .offer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    app-offer-item {
+      margin-bottom: $big-margin;
+    }
+
+    @media screen and (min-width: 961px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
   }
 
   @media screen and (min-width: 961px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    background-image: url("^assets/images/offer-page/floor-plan-1857175_1920.jpg");
   }
 }

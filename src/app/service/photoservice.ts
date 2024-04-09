@@ -11,33 +11,32 @@ export class PhotoService {
         images: [
           {
             itemImageSrc:
-              '../../assets/images/realizations/building-3331438_1280.jpg',
+              '../../assets/images/works-page/building-1510561_1920.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/building-3331438_640.jpg',
+              '../../assets/images/works-page/building-1510561_640.jpg',
             alt: 'Description for Image 1',
             title: 'Title 1',
           },
           {
-            itemImageSrc:
-              '../../assets/images/realizations/framework-3404581_1280.jpg',
+            itemImageSrc: '../../assets/images/works-page/man-3107306_1920.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/framework-3404581_640.jpg',
+              '../../assets/images/works-page/man-3107306_640.jpg',
             alt: 'Description for Image 2',
             title: 'Title 2',
           },
           {
             itemImageSrc:
-              '../../assets/images/realizations/building-1510561_1280.jpg',
+              '../../assets/images/works-page/roof-truss-3339206_1280.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/building-1510561_640.jpg',
+              '../../assets/images/works-page/roof-truss-3339206_640.jpg',
             alt: 'Description for Image 3',
             title: 'Title 3',
           },
           {
             itemImageSrc:
-              '../../assets/images/realizations/tools-864983_1280.jpg',
+              '../../assets/images/works-page/scaffold-1207389_1920.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/tools-864983_640.jpg',
+              '../../assets/images/works-page/scaffold-1207389_640.jpg',
             alt: 'Description for Image 4',
             title: 'Title 4',
           },
@@ -50,33 +49,33 @@ export class PhotoService {
         images: [
           {
             itemImageSrc:
-              '../../assets/images/realizations/building-3331438_1280.jpg',
+              '../../assets/images/works-page/building-3331438_1280.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/building-3331438_640.jpg',
+              '../../assets/images/works-page/building-3331438_640.jpg',
             alt: 'Description for Image 1',
             title: 'Title 1',
           },
           {
             itemImageSrc:
-              '../../assets/images/realizations/framework-3404581_1280.jpg',
+              '../../assets/images/works-page/framework-3404581_1280.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/framework-3404581_640.jpg',
+              '../../assets/images/works-page/framework-3404581_640.jpg',
             alt: 'Description for Image 2',
             title: 'Title 2',
           },
           {
             itemImageSrc:
-              '../../assets/images/realizations/building-1510561_1280.jpg',
+              '../../assets/images/works-page/building-1510561_1280.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/building-1510561_640.jpg',
+              '../../assets/images/works-page/building-1510561_640.jpg',
             alt: 'Description for Image 3',
             title: 'Title 3',
           },
           {
             itemImageSrc:
-              '../../assets/images/realizations/tools-864983_1280.jpg',
+              '../../assets/images/works-page/tools-864983_1280.jpg',
             thumbnailImageSrc:
-              '../../assets/images/realizations/tools-864983_640.jpg',
+              '../../assets/images/works-page/tools-864983_640.jpg',
             alt: 'Description for Image 4',
             title: 'Title 4',
           },
