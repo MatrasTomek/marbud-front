@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class WorkItemComponent implements OnInit {
   @Input() itemName!: string;
   @Input() itemDescription!: string;
+  @Input() itemTitle!: string;
   @Input() images!: any[];
 
   responsiveOptions!: any[];

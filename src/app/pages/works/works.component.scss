@@ -8,20 +8,12 @@
 }
 @media screen and (min-width: 961px) {
   .realizations {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    &__item {
-      flex-basis: 48%;
-    }
+    width: 80%;
   }
 }
 
 @media screen and (min-width: 1240px) {
   .realizations {
-    &__item {
-      flex-basis: 33%;
-    }
+    width: 60%;
   }
 }

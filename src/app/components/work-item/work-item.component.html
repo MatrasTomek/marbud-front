@@ -4,7 +4,7 @@
     <p-galleria
       [value]="images"
       [responsiveOptions]="responsiveOptions"
-      [numVisible]="3"
+      [numVisible]="5"
     >
       <ng-template pTemplate="item" let-item>
         <img [src]="item.itemImageSrc" />
@@ -16,5 +16,4 @@
       </ng-template>
     </p-galleria>
   </div>
-  <p>{{ itemDescription }}</p>
 </div>
