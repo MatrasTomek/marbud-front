@@ -32,7 +32,7 @@ export class HeaderComponent implements OnInit {
         icon: 'pi pi-fw pi-images',
         routerLink: 'realizacje',
       },
-      { label: 'Kontakt', icon: 'pi pi-fw pi-map', routerLink: '' },
+      { label: 'Kontakt', icon: 'pi pi-fw pi-map', routerLink: 'kontakt' },
     ];
     this.activeItem = this.items[0];
   }

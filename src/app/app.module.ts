@@ -20,6 +20,7 @@ import { WorkItemComponent } from './components/work-item/work-item.component';
 import { OfferComponent } from './pages/offer/offer.component';
 import { OfferItemComponent } from './components/offer-item/offer-item.component';
 import { OfferService } from './service/offerservice';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { OfferService } from './service/offerservice';
     WorkItemComponent,
     OfferComponent,
     OfferItemComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
