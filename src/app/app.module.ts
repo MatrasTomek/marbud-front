@@ -9,7 +9,7 @@ import { AccordionModule } from 'primeng/accordion';
 import { FieldsetModule } from 'primeng/fieldset';
 import { GalleriaModule } from 'primeng/galleria';
 import { StartComponent } from './pages/start/start.component';
-import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { AboutUsComponent } from './pages/contact/about-us/about-us.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { WorksComponent } from './pages/works/works.component';

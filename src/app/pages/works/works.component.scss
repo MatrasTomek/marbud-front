@@ -1,6 +1,42 @@
+@import "../../../styles.scss";
+
 .wrapper-realizations {
   width: 90%;
   margin: 2rem auto;
+
+  .opinions-wrapper {
+    width: 380px;
+    height: auto;
+    border: 1px solid $middle-gray;
+    border-radius: $big-radius;
+    padding: $standard-padding;
+    font-size: $small-fz;
+    background-color: $middle-gray;
+    color: $fontLightColor;
+    box-shadow: 5px 5px 10px $deep-gray;
+    margin: auto;
+
+    &__item {
+      display: flex;
+      flex-wrap: wrap;
+
+      .sign {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: end;
+
+        font-weight: 700;
+      }
+      .separator {
+        flex-basis: 100%;
+        display: inline-block;
+        &::after {
+          content: "---";
+          margin: auto;
+        }
+      }
+    }
+  }
 }
 .realizations {
   display: flex;

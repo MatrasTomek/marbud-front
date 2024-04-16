@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PhotoService } from 'src/app/service/photoservice';
+import { opinionsData } from 'src/assets/constansData/opinionsData';
 
 @Component({
   selector: 'app-works',
@@ -11,7 +12,11 @@ export class WorksComponent implements OnInit {
 
   responsiveOptions!: any[];
 
-  constructor(private photoService: PhotoService) {}
+  opinionsData;
+
+  constructor(private photoService: PhotoService) {
+    this.opinionsData = opinionsData;
+  }
 
   ngOnInit() {
     this.photoService.getItems().then((items) => (this.galleryItems = items));
