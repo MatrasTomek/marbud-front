@@ -64,3 +64,14 @@
     }
   }
 }
+
+.second-card-wrapper {
+  background-image: url("../../../assets/images/start-page/construction-19696_640.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media screen and (min-width: 961px) {
+    background-image: url("../../../assets/images/start-page/construction-19696_1920.jpg");
+  }
+}

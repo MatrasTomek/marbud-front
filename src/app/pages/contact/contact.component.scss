@@ -13,6 +13,21 @@
   }
 }
 
+.contact-wrapper__map {
+  background-image: url("^assets/images/contact-page/map.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  border-radius: $big-radius;
+
+  @media screen and (min-width: 961px) {
+    width: 50%;
+  }
+}
+
 .contact-wrapper__info {
   width: 380px;
   height: 260px;
