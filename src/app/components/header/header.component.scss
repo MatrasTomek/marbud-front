@@ -1,3 +1,12 @@
 :host ::ng-deep .p-menubar-button {
-  margin-left: 70%;
+  margin-left: 60%;
+}
+
+.logo {
+  background-image: url("../../../assets/images/MARBUD_1.png");
+  background-position: center;
+  background-position-y: 130px;
+  background-size: cover;
+  width: 240px;
+  height: 40px;
 }
