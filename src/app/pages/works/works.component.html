@@ -1,5 +1,5 @@
-<div class="wrapper-realizations realizations card-wrapper">
-  <div class="realizations__item">
+<div class="wrapper-realizations card-wrapper">
+  <div class="wrapper-realizations__gallery">
     <app-work-item
       *ngFor="let item of galleryItems"
       [itemName]="item.itemName"
@@ -8,7 +8,7 @@
     >
     </app-work-item>
   </div>
-  <div class="opinions-wrapper p-component">
+  <div class="wrapper-realizations__options p-component">
     <h3>Opinie Klientów:</h3>
     <div
       *ngFor="let opinion of opinionsData"

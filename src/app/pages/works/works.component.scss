@@ -3,8 +3,13 @@
 .wrapper-realizations {
   width: 90%;
   margin: 2rem auto;
+  // display: flex;
 
-  .opinions-wrapper {
+  &__gallery {
+    // flex-basis: 50%;
+  }
+
+  &__options {
     width: 380px;
     height: auto;
     border: 1px solid $middle-gray;
@@ -37,19 +42,14 @@
       }
     }
   }
-}
-.realizations {
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (min-width: 961px) {
-  .realizations {
-    width: 80%;
-  }
-}
+  @media screen and (min-width: 1240px) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
-@media screen and (min-width: 1240px) {
-  .realizations {
-    width: 60%;
+    &__options {
+      flex-grow: 1;
+      margin-left: 2rem;
+    }
   }
 }
