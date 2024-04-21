@@ -6,13 +6,12 @@ import { OfferComponent } from './pages/offer/offer.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   redirectTo: '/start',
+  // },
   {
     path: '',
-    redirectTo: '/start',
-    pathMatch: 'full',
-  },
-  {
-    path: 'start',
     component: StartComponent,
   },
   {
@@ -26,6 +25,11 @@ const routes: Routes = [
   {
     path: 'kontakt',
     component: ContactComponent,
+  },
+
+  {
+    path: '**',
+    component: StartComponent,
   },
 ];
 
